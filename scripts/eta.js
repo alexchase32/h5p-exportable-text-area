@@ -177,7 +177,6 @@ H5P.ExportableTextArea.Exporter = (function _eta_exporter_internal() {
     html = '<ht' + 'ml><he' + 'ad><me' + 'ta charset="UTF-8"></me' + 'ta></he' + 'ad><bo' + 'dy><p><a href="' + document.URL + '">' + document.URL + '</a></p>' + html + '</bo' + 'dy></ht' + 'ml>';
 
     return html;
-  };
 
   this.createExportButton = function (title) {
     var self = this;
