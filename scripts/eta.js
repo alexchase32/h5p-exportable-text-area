@@ -174,7 +174,7 @@ H5P.ExportableTextArea.Exporter = (function _eta_exporter_internal() {
 
     // Create HTML:
     // me + ta and other hacks to avoid that new relic injects script...
-    html = '<ht' + 'ml><he' + 'ad><me' + 'ta charset="UTF-8"></me' + 'ta></he' + 'ad><bo' + 'dy><p><a href="' + document.URL + '">' + document.URL + '</a></p>' + html + '</bo' + 'dy></ht' + 'ml>';
+    html = `<html><head><meta charset="UTF-8"></meta></head><body><p><a href="${document.URL}">${document.URL}</a></p>${html}</body></html>`;
 
     return html;
 
